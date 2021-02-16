@@ -10,7 +10,7 @@ public class RentalDue {
     ArrayList<RentalProperty> ApartmentRental = new ArrayList<>();
     ArrayList<RentalProperty> SingleFamilyRental = new ArrayList<>();
 
-    public void FileImport() {
+    public void InputFile() {
         try {
             Scanner sc = new Scanner(file);
             while (sc.hasNextLine()) {

@@ -1,5 +1,3 @@
-import java.util.Comparator;
-
 public class RentalProperty implements Payment {
     String propertyType;
     String rentalID;

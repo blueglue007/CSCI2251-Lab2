@@ -5,5 +5,4 @@ public class ApartmentRental extends RentalProperty {
     public double outputCurrentRent() {
         return super.getrental()*1.08;
     }
-
 }
